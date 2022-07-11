@@ -133,13 +133,13 @@ variable "scheduling_enabled" {
   description = "The schedule vm is need to be true but the default is false"
   default     = false
 }
-variable "enable_secure_boot" {
-  type        = bool
-  description = "(optional) describe your variable"
-  default = false
-}
-variable "enable_integrity_monitoring" {
-  type        = bool
-  description = "(optional) describe your variable"
-  default = false
-}
+# variable "enable_secure_boot" {
+#   type        = bool
+#   description = "(optional) describe your variable"
+#   default = false
+# }
+# variable "enable_integrity_monitoring" {
+#   type        = bool
+#   description = "(optional) describe your variable"
+#   default = false
+# }
